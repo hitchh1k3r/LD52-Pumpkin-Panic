@@ -1,0 +1,31 @@
+# Generated Files
+/src/game/_entity.odin
+/src/info/_version.odin
+
+# Artifacts
+/build/*
+!/build/res/
+!/build/res/*
+!/build/res/**/*
+*.lib
+*.exe
+*.obj
+/src/raylib/
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Sublime Text
+*.sublime-workspace
+
+# Blender Backup Files
+*.blend1
+*.blend2
+
+# Emacs Stuff
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.\#*

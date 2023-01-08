@@ -1,0 +1,46 @@
+{
+  "build_systems":
+  [
+    {
+      "windows":
+      {
+        "cmd": "build_and_run.bat",
+        "file_regex": "^(C:.*\\.odin)\\((\\d+):(\\d+)\\)\\s(.*)$",
+      },
+      "name": "Build and Run",
+      "working_dir": "$project_path/",
+    },
+  ],
+  "folders":
+  [
+    {
+      "name": "Odin Core",
+      "path": "../Odin/core",
+    },
+    {
+      "name": "Odin Vendor",
+      "path": "../Odin/vendor",
+    },
+    {
+      "name": "Odin Shared",
+      "path": "../Odin/shared",
+    },
+    {
+      "folder_exclude_patterns":
+      [
+        "src",
+        "meta",
+      ],
+      "name": "// Project ////////",
+      "path": ".",
+    },
+    {
+      "name": "// Source /////////",
+      "path": "src",
+    },
+  ],
+  "settings":
+  {
+    "atomic_save": true,
+  },
+}
