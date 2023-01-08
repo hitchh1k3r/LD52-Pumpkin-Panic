@@ -193,7 +193,6 @@ main :: proc() {
                   }
 
                 case TilePortal:
-                  // TODO (hitch) 2023-01-08 DO THE RIGHT THING
                   action = .Harvest_Portal
                   if rl.IsMouseButtonPressed(.LEFT) {
                     rl.PlaySound(sounds.harvest)
